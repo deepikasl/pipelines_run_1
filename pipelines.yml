@@ -26,7 +26,7 @@ pipelines:
         configuration:
           integrations:
             - name: gen
-            - name: bsEntPlus
+#             - name: bsEntPlus
           inputResources:
             - name: self_repo
         execution: 
@@ -43,7 +43,7 @@ pipelines:
         configuration:
           integrations:
             - name: gen
-            - name: bsEntPlus
+#             - name: bsEntPlus
           inputSteps: 
             - name: Normal_Step      
         execution: 
@@ -60,7 +60,7 @@ pipelines:
         configuration:
           integrations:
             - name: gen
-            - name: bsEntPlus
+#             - name: bsEntPlus
           inputSteps: 
             - name: Matrix_Fan_Out_1
           inputResources:
@@ -88,13 +88,13 @@ pipelines:
               key_2: value4
             - key_1: value5
               key_2: value6
-          runtimes:
-            - type: image
-              image:
-                auto:
-                  language: cpp
-                  versions:
-                    - 8.0.0
+#           runtimes:
+#             - type: image
+#               image:
+#                 auto:
+#                   language: cpp
+#                   versions:
+#                     - 8.0.0
             # - type: image
             #   image:
             #     auto:
@@ -153,7 +153,7 @@ pipelines:
         configuration:
           integrations:
             - name: gen
-            - name: bsEntPlus
+#             - name: bsEntPlus
           inputSteps: 
             - name: matrix_2
         execution:
@@ -171,7 +171,7 @@ pipelines:
         configuration:
           integrations:
             - name: gen
-            - name: bsEntPlus
+#             - name: bsEntPlus
           inputResources: 
             - name: matrix_property_bag_out
         execution:
