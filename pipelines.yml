@@ -130,6 +130,7 @@ pipelines:
           onExecute:
             - echo "$int_gen_K"
             - echo "I am on matrix step"
+            - echo ${steplet_id}
             - ls -l ./Matrix_Fan_Out_1
             - touch ${steplet_id}_file
             - echo "Created file on steplet ${steplet_id}" > ${steplet_id}_file
