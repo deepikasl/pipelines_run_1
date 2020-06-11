@@ -88,13 +88,13 @@ pipelines:
               key_2: value4
             - key_1: value5
               key_2: value6
-#           runtimes:
-#             - type: image
-#               image:
-#                 auto:
-#                   language: cpp
-#                   versions:
-#                     - 8.0.0
+          runtimes:
+            - type: image
+              image:
+                auto:
+                  language: cpp
+                  versions:
+                    - 8.0.0
             # - type: image
             #   image:
             #     auto:
